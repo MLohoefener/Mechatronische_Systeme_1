@@ -2,6 +2,13 @@
 
 ## Skripte zu Vorlesungen Mechatronische Systeme 1 an der Hochschule Merseburg
 
+**Voraussetzungen**: PC mit
+
+1. MATLAB® und Control Systems Toolbox für M-Skripte bzw. Funktionen
+2. MATLAB® und Simulink® für SLX-Modelle
+3. https://www.octave.org und `pkg install -forge control; pkg load control` für M-Skripte bzw. Funktionen
+4. https://www.scilab.org/ für XCO- oer ZCOS-Modelle
+
 **Datei**|**Beschreibung**
 ---|---
 **Einrad.xcos**|Xcos-Modell des Einrads im Zeitbereich
