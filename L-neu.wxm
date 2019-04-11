@@ -1,0 +1,75 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 17.10.0 ] */
+/* [wxMaxima: input   start ] */
+kill (all);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+E_pK: k * x(t)^2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+E_pS1: l*g*m_1 * (1-cos(phi(t)));
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+E_pS2: g*m_2 * (l-(l+x(t))*cos(phi(t)));
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+E_p: E_pK+E_pS1+E_pS2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+E_kJ: J/2 * diff(phi(t),t)^2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+E_kTang: m_2/2 * (l+x(t))^2*diff(phi(t),t)^2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+E_kRad: m_2/2 * diff(x(t),t)^2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+E_k: E_kJ + E_kTang + E_kRad;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+L: E_k - E_p;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+L_phi: diff(diff(L,diff(phi(t),t)),t)-diff(L,phi(t))=0;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+phi_2: solve(L_phi, [diff(phi(t),t,2)]);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+L_x: diff(diff(L,diff(x(t),t)),t)-diff(L,x(t))=0;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+x_2: solve(L_x, [diff(x(t),t,2)]);
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$
