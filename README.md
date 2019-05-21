@@ -1,4 +1,4 @@
-# Mechatronische_Systeme_1
+# Mechatronische Systeme 1
 
 ## Skripte zu Vorlesungen Mechatronische Systeme 1 an der Hochschule Merseburg
 
