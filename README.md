@@ -12,13 +12,13 @@
 
 **Datei**|**Beschreibung**
 ---|---
+**DGl.m**|M-Skript zur Untersuchung von DGl 2. Ordnung
 **Einrad.xcos**|Xcos-Modell des Einrads im Zeitbereich
 **Einrad_G(s).zcos**|Xcos-Modells des Einrads mit Übertragungsfunktionen
 **Einrad.m**|Modell des Einrads als M-Skript-Funktion mit Übertragungsfunktionen
 **Einrad.sce**|Modell des Einrads als Scilab-Skript mit Übertragungsfunktionen
 **Einrad_ZR.m**|Modell des Einrads als M-Skript im Zustandsraum
 **L-neu.wxm**|Lagrange-Beschreibung eines Röhrenpendels mit einer eingeschlossenen Masse an Federn
-**DGl.m**|M-Skript zur Untersuchung von DGl 2. Ordnung
 **Signale.m**|M-Skript zur Darstellung von determinierten und stochastischen Signalen
 **Uebg_1.xcos**|Xcos-Modell zur Füllstandsregelung im Tank
 **printgcf.m**|MATLAB-Funktion: Draw x y coordinate system and grid in current figure. Choose minor grid (or not). Print current figure as SVG Scalable Vector Graphic or as EMF Enhanced Metafile
