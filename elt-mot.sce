@@ -1,4 +1,4 @@
-// Simulation eines fremderregten Gleichstrommotors elt.-mot.sce
+// Simulation eines fremderregten Gleichstrommotors elt-mot.sce
 // Vorgabe von J, Psi, Ra, La und MR1; Verwendung von K, T, D und MR1s
 //
 // Datenaufbereitung
