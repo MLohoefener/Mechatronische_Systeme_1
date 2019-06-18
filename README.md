@@ -12,9 +12,12 @@
 
 **Datei**|**Beschreibung**
 ---|---
-**1Rad.sce**|Scilab--Skript zur Modellierung des Beispiels Einrad mit Differenzialgleichungssystem und Zustandsraum
+**1Rad.sce**|Scilab-Skript zur Modellierung des Beispiels Einrad mit Differenzialgleichungssystem und Zustandsraum
 **2Rad-x-v.sce**|Scilab--Skript zur Modellierung des Beispiels Zweirad mit Positionen und Geschwindigkeiten
-**2Rad.sce**|Scilab--Skript zur Modellierung des Beispiels Zweirad mit Differenzialgleichungssystem und Zustandsraum
+**2Rad.sce**|Scilab-Skript zur Modellierung des Beispiels Zweirad mit Differenzialgleichungssystem und Zustandsraum
+**DC-mot-tf.wxm**|wxMaxima-Batch-Datei zur Modellierung eines Gleichstrommotors mit Übertragungsfunktionen
+**DC_mot_TF.m**|M-Skript zur Modellierung eines Gleichstrommotors mit Übertragungsfunktionen
+**DC_mot_ZR.m**|M-Skript zur Modellierung eines Gleichstrommotors im Zustandsraum
 **DGl.m**|M-Skript zur Untersuchung von DGl 2. Ordnung
 **Einrad.m**|Modell des Einrads als M-Skript-Funktion mit Übertragungsfunktionen
 **Einrad.sce**|Modell des Einrads als Scilab-Skript mit Übertragungsfunktionen
@@ -22,8 +25,13 @@
 **Einrad_G(s).zcos**|Xcos-Modells des Einrads mit Übertragungsfunktionen
 **Einrad_ZR.m**|Modell des Einrads als M-Skript im Zustandsraum
 **ElemUebertr.m**|Elementare Übertragungsglieder / Übergangsfunktionen à la carte
-**L-neu.wxm**|Lagrange-Beschreibung eines Röhrenpendels mit einer eingeschlossenen Masse an Federn
+**GS_M_TF.m**|M-Skript zur Modellierung eines Gleichstrommotors mit Übertragungsfunktionen
+**GS_M_ZR.m**|M-Skript zur Modellierung eines Gleichstrommotors im Zustandsraum
+**L-neu.wxm**|wxMaxima-Batch-Datei zur Lagrange-Beschreibung eines Röhrenpendels mit einer eingeschlossenen Masse an Federn
+**L-neu.m**|M-Skript zur Lagrange-Beschreibung eines Röhrenpendels mit einer eingeschlossenen Masse an Federn
+**Rohrpendel.slx**|Simulink-Blockdiagramm eines Röhrenpendels mit einer eingeschlossenen Masse an Federn
 **Signale.m**|M-Skript zur Darstellung von determinierten und stochastischen Signalen
 **Uebg_1.xcos**|Xcos-Modell zur Füllstandsregelung im Tank
-**cont2dis.m**|Z-Transformation mit MATLAB / Octave
+**cont2dis.m**|M-Skript zur Z-Transformation mit MATLAB / Octave
+**elt-mot.sce**|Scilab-Skript zur Simulation eines fremderregten Gleichstrommotors
 **printgcf.m**|MATLAB-Funktion: Draw x y coordinate system and grid in current figure. Choose minor grid (or not). Print current figure as SVG Scalable Vector Graphic or as EMF Enhanced Metafile
