@@ -1,4 +1,4 @@
-% DC_mot_ZR.m – tested with MATLAB + CST and GNU Octave + Control
+% DC_mot_TF.m – tested with MATLAB + CST and GNU Octave + Control
 % Manfred Lohöfener, HS Merseburg, 25.10.2016
 
 clear
