@@ -1,4 +1,4 @@
-// Scilab-Programm Zweirad 2Rad.sci
+// Scilab-Programm Zweirad 2Rad-x-v.sci
 // M. Lohöfener, FH Merseburg, 16.5.2003
 k1 = 35000;		// N/m, etwa 70 kg auf 2 cm
 d1 = 1000;		// ausprobiert
