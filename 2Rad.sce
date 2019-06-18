@@ -1,4 +1,4 @@
-// Scilab-Programm Zweirad 2Rad.sci
+// Scilab-Programm Zweirad 2Rad.sce
 // M. Lohoefener, FH Merseburg, 16.5.2003
 clear; close
 
