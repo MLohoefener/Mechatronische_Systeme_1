@@ -27,8 +27,8 @@
 **ElemUebertr.m**|M-Skript zur Modellierung elementarer Übertragungsglieder / Übergangsfunktionen à la carte
 **GS_M_TF.m**|M-Skript zur Modellierung eines Gleichstrommotors mit Übertragungsfunktionen
 **GS_M_ZR.m**|M-Skript zur Modellierung eines Gleichstrommotors im Zustandsraum
-**L-neu.wxm**|wxMaxima-Batch-Datei zur Lagrange-Beschreibung eines Röhrenpendels mit einer eingeschlossenen Masse an Federn
-**L-neu.m**|M-Skript zur Lagrange-Beschreibung eines Röhrenpendels mit einer eingeschlossenen Masse an Federn
+**L-neu.wxm**|wxMaxima-Batch-Datei zur symbolischen Lösung der Lagrange-Funktion eines Röhrenpendels mit einer eingeschlossenen Masse an Federn
+**L-neu.m**|M-Skript zur symbolischen Lösung der Lagrange-Funktion eines Röhrenpendels mit einer eingeschlossenen Masse an Federn mit Octave
 **Rohrpendel.slx**|Simulink-Blockdiagramm eines Röhrenpendels mit einer eingeschlossenen Masse an Federn
 **Signale.m**|M-Skript zur Darstellung von determinierten und stochastischen Signalen
 **Uebg_1.xcos**|Xcos-Blockdiagramm zur Füllstandsregelung im Tank
