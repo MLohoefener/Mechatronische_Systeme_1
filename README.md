@@ -12,6 +12,7 @@
 
 **Datei**|**Beschreibung**
 ---|---
+**1Rad.sce**|Scilab--Skript zur Modellierung des Beispiels Einrad mit Differenzialgleichungssystem und Zustandsraum
 **DGl.m**|M-Skript zur Untersuchung von DGl 2. Ordnung
 **Einrad.m**|Modell des Einrads als M-Skript-Funktion mit Übertragungsfunktionen
 **Einrad.sce**|Modell des Einrads als Scilab-Skript mit Übertragungsfunktionen
