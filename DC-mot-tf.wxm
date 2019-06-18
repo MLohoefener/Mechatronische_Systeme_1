@@ -1,0 +1,37 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 16.04.2 ] */
+
+/* [wxMaxima: input   start ] */
+G_ui:    1 / (R + L*s);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+G_wi: -K_b / (R + L*s);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+G_iw:  K_m / (K_f + J*s);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+G_Tw:   -1 / (K_f + J*s);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+ratsimp(G_uw  = G_iw*G_ui / (1 - G_iw*G_wi));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+ratsimp(G\'_Tw = G_Tw / (1 - G_iw*G_wi));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+ratsimp(G\'_ui = G_ui / (1 - G_iw*G_wi));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+ratsimp(G_Ti  = G_wi*G_Tw / (1 - G_iw*G_wi));
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$
