@@ -33,5 +33,6 @@
 **Signale.m**|M-Skript zur Darstellung von determinierten und stochastischen Signalen
 **Uebg_1.xcos**|Xcos-Blockdiagramm zur Füllstandsregelung im Tank
 **cont2dis.m**|M-Skript zur Z-Transformation mit MATLAB / Octave
+**elt-mot-dat.sce**|Scilab-Skript mit Daten zur Simulation eines fremderregten Gleichstrommotors
 **elt-mot.sce**|Scilab-Skript zur Simulation eines fremderregten Gleichstrommotors
 **printgcf.m**|M-Skript-Funktion: Draw x y coordinate system and grid in current figure. Choose minor grid (or not). Print current figure as SVG Scalable Vector Graphic or as EMF Enhanced Metafile
