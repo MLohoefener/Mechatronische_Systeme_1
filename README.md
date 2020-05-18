@@ -32,6 +32,7 @@
 **Rohrpendel.slx**|Simulink-Blockdiagramm eines Röhrenpendels mit einer eingeschlossenen Masse an Federn
 **Signale.m**|M-Skript zur Darstellung von determinierten und stochastischen Signalen
 **Uebg_1.xcos**|Xcos-Blockdiagramm zur Füllstandsregelung im Tank
+**Zweimassen-Laplace.wxm**|wxMaxima-Batch-Datei zur symbolischen Lagrange-Transformation eines Zweimassensystems
 **cont2dis.m**|M-Skript zur Z-Transformation mit MATLAB / Octave
 **elt-mot-dat.sce**|Scilab-Skript mit Daten zur Simulation eines fremderregten Gleichstrommotors
 **elt-mot.sce**|Scilab-Skript zur Simulation eines fremderregten Gleichstrommotors
