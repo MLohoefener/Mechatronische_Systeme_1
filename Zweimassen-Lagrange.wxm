@@ -1,0 +1,45 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 20.04.0 ] */
+/* [wxMaxima: input   start ] */
+kill (all);
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+E_p: k_A*(x_R(t)-x_A(t))^2/2+k_R*(x_S(t)-x_R(t))^2/2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+E_k: m_A*diff(x_A(t),t)^2/2+m_R*diff(x_R(t),t)^2/2;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+L: E_k - E_p;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+L_A: diff(diff(L,diff(x_A(t),t)),t)-diff(L,x_A(t))=0;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+L_R: diff(diff(L,diff(x_R(t),t)),t)-diff(L,x_R(t))=0;
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+x_2: solve(L_R, x_S(t));
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 20.04.0"$
