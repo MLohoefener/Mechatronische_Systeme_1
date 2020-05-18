@@ -26,12 +26,12 @@ L_A: diff(diff(L,diff(x_A(t),t)),t)-diff(L,x_A(t))=0;
 
 
 /* [wxMaxima: input   start ] */
-L_R: diff(diff(L,diff(x_R(t),t)),t)-diff(L,x_R(t))=0;
+L_R: diff(diff(L,diff(x_R(t),t)),t)-diff(L,x_R(t))=x_S(t)*k_R;
 /* [wxMaxima: input   end   ] */
 
 
 /* [wxMaxima: input   start ] */
-x_2: solve(L_R, x_S(t));
+matrix ([L_A], [L_R]) ;
 /* [wxMaxima: input   end   ] */
 
 
