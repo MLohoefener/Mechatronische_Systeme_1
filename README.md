@@ -16,6 +16,7 @@
 **2Rad-x-v.sce**|Scilab-Skript zur Modellierung eines Zweirads mit Positionen und Geschwindigkeiten
 **2Rad.sce**|Scilab-Skript zur Modellierung eines Zweirads mit Differenzialgleichungssystem und Zustandsraum
 **DC-mot-tf.wxm**|wxMaxima-Batch-Datei zur Modellierung eines Gleichstrommotors mit Übertragungsfunktionen
+**DC_contr_ZN.m**|Controlled DC motor RE 35 from Maxon
 **DC_mot_TF.m**|M-Skript zur Modellierung eines Gleichstrommotors mit Übertragungsfunktionen
 **DC_mot_ZR.m**|M-Skript zur Modellierung eines Gleichstrommotors im Zustandsraum
 **DGl.m**|M-Skript zur Untersuchung von Differenzialgleichungen 2. Ordnung
