@@ -33,10 +33,14 @@
 **RK_kont_CHR.m**|Kontinuierlicher Regelkreis
 **Rohrpendel.slx**|Simulink-Blockdiagramm eines Röhrenpendels mit einer eingeschlossenen Masse an Federn
 **Signale.m**|M-Skript zur Darstellung von determinierten und stochastischen Signalen
+**Test_MQTT_pub.m**|Script for testing MQTT
+**Test_MQTT_sub.m**|Script for testing MQTT
 **Uebg_1.xcos**|Xcos-Blockdiagramm zur Füllstandsregelung im Tank
 **Zweimassen-Lagrange.wxm**|wxMaxima-Batch-Datei zur symbolischen Lösung der Lagrange-Funktion eines Zweimassensystems
 **cont2dis.m**|M-Skript zur Z-Transformation mit MATLAB / Octave
 **coordgrd.m**|Draw x y coordinate system and grid in current figure
 **elt-mot-dat.sce**|Scilab-Skript mit Daten zur Simulation eines fremderregten Gleichstrommotors
 **elt-mot.sce**|Scilab-Skript zur Simulation eines fremderregten Gleichstrommotors
+**mqtt_pub.m**|Send an MQTT message
+**mqtt_sub.m**|Receive an MQTT message
 **printgcf.m**|M-Skript-Funktion: Draw x y coordinate system and grid in current figure. Choose minor grid (or not). Print current figure as SVG Scalable Vector Graphic or as EMF Enhanced Metafile
