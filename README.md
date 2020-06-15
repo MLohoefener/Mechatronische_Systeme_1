@@ -44,3 +44,5 @@
 **mqtt_pub.m**|Send an MQTT message
 **mqtt_sub.m**|Receive an MQTT message
 **printgcf.m**|M-Skript-Funktion: Draw x y coordinate system and grid in current figure. Choose minor grid (or not). Print current figure as SVG Scalable Vector Graphic or as EMF Enhanced Metafile
+**sensor_analyse.m**|M Script for analysing of sensor data via MQTT/JSON
+**sensor_data.m**|M Script for demonstration of sensor data via MQTT/JSON
