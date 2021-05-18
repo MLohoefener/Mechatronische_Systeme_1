@@ -18,7 +18,6 @@
 **DC-mot-tf.wxm**|wxMaxima-Batch-Datei zur Modellierung eines Gleichstrommotors mit Übertragungsfunktionen
 **DC_Motor.slx**|Simulink-Datei zur Modellierung eines Gleichstrommotors mit Übertragungsfunktionen
 **DC_contr_ZN.m**|Controlled DC motor RE 35 from Maxon
-**DC_mot.m**|M-Skript zur Modellierung eines Gleichstrommotors
 **DC_mot.zcos**|Xcos-Blockdiagramm zur Modellierung eines Gleichstrommotors mit DGl
 **DC_mot_TF.m**|M-Skript zur Modellierung eines Gleichstrommotors mit Übertragungsfunktionen
 **DC_mot_ZR.m**|M-Skript zur Modellierung eines Gleichstrommotors im Zustandsraum
@@ -30,10 +29,14 @@
 **Einrad_G(s).zcos**|Xcos-Blockdiagramm eines Einrads mit Übertragungsfunktionen
 **Einrad_ZR.m**|M-Skript zur Modellierung eines Einrads im Zustandsraum
 **ElemUebertr.m**|M-Skript zur Modellierung elementarer Übertragungsglieder / Übergangsfunktionen à la carte
+**GS_M_ZR.sce**|Scilab-Skript zur Modellierung eines Gleichstrommotors im Zustandsraum
+**GS_Mot.zcos**|Xcos-Blockdiagramm zur Modellierung eines Gleichstrommotors mit DGl
+**GS_ZR.zcos**|Xcos-Blockdiagramm zur Modellierung eines Gleichstrommotors im Zustandsraum
 **GS_M_TF.m**|M-Skript zur Modellierung eines Gleichstrommotors mit Übertragungsfunktionen
 **GS_M_ZR.m**|M-Skript zur Modellierung eines Gleichstrommotors im Zustandsraum
 **L-neu.wxm**|wxMaxima-Batch-Datei zur symbolischen Lösung der Lagrange-Funktion eines Röhrenpendels mit einer eingeschlossenen Masse an Federn
 **L-neu.m**|M-Skript zur symbolischen Lösung der Lagrange-Funktion eines Röhrenpendels mit einer eingeschlossenen Masse an Federn mit Octave
+**LogDiff.wxm**|wxMaxima-Batch-Datei zur symbolischen logarithmischen Differenziation
 **RK_kont_CHR.m**|Kontinuierlicher Regelkreis
 **Rohrpendel.slx**|Simulink-Blockdiagramm eines Röhrenpendels mit einer eingeschlossenen Masse an Federn
 **Signale.m**|M-Skript zur Darstellung von determinierten und stochastischen Signalen
